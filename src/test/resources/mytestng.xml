@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="demosuite">
+    <parameter name="tcname" value="tc01value"/>
     <test name="test1">
         <classes>
             <class name="TestCases.TC01">
                 <methods>
                     <include name="tc01"/>
+                    <include name="tc02"/>
+                    <include name="tc03"/>
                 </methods>
             </class>
         </classes>
